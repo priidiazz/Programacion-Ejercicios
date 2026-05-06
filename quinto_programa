@@ -1,0 +1,22 @@
+# Crear un programa que reciba la cantidad de chocolates que queres comprar y devuelva el precio final.
+# -------------------------------------------
+
+print("¿Cuantos chocolates quiere comprar?")
+cantidad = int(input())
+precio = 325 * cantidad
+
+if(cantidad >= 5 and cantidad < 10):
+    porcentaje = 10
+    resultado= precio * porcentaje / 100
+    preciofinal= precio - resultado
+    print("Debera abonar ", preciofinal)
+elif(cantidad >= 10 and cantidad < 20):
+    porcentaje = 17
+    resultado= precio * porcentaje / 100
+    preciofinal= precio - resultado
+    print("Debera abonar ", preciofinal)
+else:
+    porcentaje = 30
+    resultado= precio * porcentaje / 100
+    preciofinal= precio - resultado
+    print("Debera abonar ", preciofinal)

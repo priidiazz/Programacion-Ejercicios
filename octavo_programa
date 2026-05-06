@@ -1,0 +1,26 @@
+#Crea un programa que solicite al usuario ingresar el precio de un producto y la cantidad que desea comprar. Luego, aplica los siguientes descuentos:
+#Si el usuario compra más de 5 unidades del producto, se le otorga un descuento del 10%.
+#Si el usuario compra más de 10 unidades, se le otorga un descuento adicional del 5% sobre el descuento anterior.
+#Si el usuario compra más de 20 unidades, se le otorga un descuento adicional del 3% sobre el descuento total.
+#El programa debe calcular el precio final después de aplicar los descuentos y mostrarlo al usuario.
+
+print("ingrese cantidad a comprar:")
+cantidad=int(input())
+print("ingrese precio del producto:")
+precio=float(input()) * cantidad
+
+if(cantidad >= 5 and cantidad < 10):
+    porcentaje = 10
+    resultado= precio * porcentaje / 100
+    preciofinal= precio - resultado
+    print("Debera abonar: ", preciofinal)
+elif(cantidad >= 10 and cantidad < 20):
+    porcentaje = 15
+    resultado= precio * porcentaje / 100
+    preciofinal= precio - resultado
+    print("Debera abonar: ", preciofinal)
+else:
+    porcentaje = 18
+    resultado= precio * porcentaje / 100
+    preciofinal= precio - resultado
+    print("Debera abonar: ", preciofinal)

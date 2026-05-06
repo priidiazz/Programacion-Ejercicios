@@ -1,0 +1,8 @@
+#el usuario ingresa una nota de 0 a 10 y el programa indica si esta aprobado
+print("ingrese su calificacion:")
+calificacion=int(input())
+
+if calificacion>=6:
+    print("Usted se encuentra aprobado")
+else:
+    print("Usted se encuentra desaprobado")

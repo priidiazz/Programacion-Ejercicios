@@ -1,0 +1,36 @@
+#Juego de Adivinanza:Crea un programa en Python que le pida al usuario adivinar un número secreto. El programa debe seguir los siguientes pasos:
+#Pide al usuario que ingrese un número.
+#Compara el número ingresado por el usuario con el número secreto (lo elige el programador).
+#Si el número ingresado es igual al número secreto, muestra un mensaje de felicitación y termina el juego.
+#Si el número ingresado es mayor o menor que el número secreto
+
+print("ingrese un numero del 1 al 50:")
+numero_usuario = int(input())
+numero_real = 43
+
+if (numero_usuario == numero_real):
+  print("Felicitaciones, adivinaste el numero!")
+  print("Fin del juego")          
+elif (numero_usuario < numero_real):
+  print("El numero ingresado es menor al numero secreto.")
+else:
+  print("El numero ingresado es mayor al numero secreto.")
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

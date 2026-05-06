@@ -1,0 +1,23 @@
+#El usuario ingresa un numero del 1 al 7.Determinar que dia de la semana corresponde al dia ingresado
+print("ingrese un numero del 1 al 7:")
+numero= int(input())
+
+if (numero==1):
+  print("dia lunes")
+else: 
+ if (numero==2):
+   print("dia martes")
+ else:
+   if (numero==3):
+    print("dia miercoles")
+   else:
+     if (numero==4):
+       print("dia jueves")
+     else:
+       if (numero==5):
+        print("dia viernes")
+       else:
+         if (numero==6):
+           print("dia sabado")
+         else:
+            print("dia domingo")
